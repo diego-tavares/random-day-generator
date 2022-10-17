@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body {
+  background: radial-gradient(#e66465, #9198e5);
+}
 .roleta {
     border: 16px solid #f3f3f3; /* Light grey */
     border-top: 16px solid #3498db; /* Blue */
@@ -12,7 +15,6 @@
     height: 120px;
     animation: spin 2s linear infinite;
     display: none;
-    transition: 2s;
   }
   
   @keyframes spin {
