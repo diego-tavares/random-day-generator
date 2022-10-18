@@ -6,9 +6,14 @@ const roleta = document.getElementById('roleta')
 function gerarDia () {
    randomDay = diasDaSemana[Math.floor(Math.random() * diasDaSemana.length)];
    roleta.style.display = "flex";
-
+setTimeout(function() {
    dia.innerText = randomDay;
+   roleta.style.display = "none";
+ }, 3000)
+  
+   
 }
 
 button.addEventListener('click', gerarDia)
+
 
