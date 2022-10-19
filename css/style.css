@@ -5,7 +5,23 @@
 }
 
 body {
-  background: radial-gradient(#e66465, #9198e5);
+  background: radial-gradient(#f3f3f4, #2fab98);
+}
+
+.align {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%
+}
+
+.dia {
+  font-size: xx-large;
+}
+
+button {
+  font-size: x-large;
 }
 .roleta {
     border: 16px solid #f3f3f3; /* Light grey */
@@ -14,7 +30,8 @@ body {
     width: 120px;
     height: 120px;
     animation: spin 2s linear infinite;
-    display: flex;
+    display: none;
+
   }
   
   @keyframes spin {
