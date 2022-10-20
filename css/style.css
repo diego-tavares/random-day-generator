@@ -41,8 +41,37 @@ button:hover {
   margin-top: 200px;
 }
 
-.dia {
+/* .dia {
   font-size: xx-large;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+} */
+
+
+.dia{
+  font-weight: 600;
+  font-size: 50px;
+  line-height:65px;
+  text-align: center;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 400%;
+  animation: move 10s ease infinite;
+  background-image: linear-gradient( 68.7deg,  rgba(29,173,235,1) 13.2%, rgba(137,149,250,1) 29.8%, rgb(109, 229, 215) 48.9%, rgb(20, 111, 76) 68.2%, rgb(32, 40, 149) 86.4% );
+}
+
+@keyframes move {
+  0%,100%{
+      background-position: 200% 0%;
+  }
+
+  50%{
+      background-position: 0% 200%;
+  }
 }
 
 .roleta {
