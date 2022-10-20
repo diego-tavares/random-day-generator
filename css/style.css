@@ -11,7 +11,7 @@ body {
   background: radial-gradient(#f3f3f4, #2fab98);
 }
 button {
-  background-color: #c2fbd7;
+  background-color: #9ee9f3;
   border-radius: 100px;
   box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
   color: green;
@@ -42,15 +42,6 @@ button:hover {
 }
 
 
-/* .dia {
-  font-size: xx-large;
-  color: #fff;
-  text-transform: uppercase;
-  animation: flip 2s infinite;
-  animation-delay: calc(.2s * var(--i))
-} */
-
-
 .dia{
   font-weight: 600;
   font-size: 50px;
@@ -62,7 +53,7 @@ button:hover {
   background-clip: text;
   background-size: 400%;
   animation: move 10s ease infinite;
-  background-image: linear-gradient( 68.7deg,  rgba(29,173,235,1) 13.2%, rgba(137,149,250,1) 29.8%, rgb(109, 229, 215) 48.9%, rgb(20, 111, 76) 68.2%, rgb(32, 40, 149) 86.4% );
+  background-image: linear-gradient( 68.7deg,  rgba(29,173,235,1) 13.2%, rgb(159, 216, 243) 29.8%, rgb(15, 175, 157) 48.9%, rgb(40, 150, 107) 68.2%, rgb(100, 106, 189) 86.4% );
 }
 
 @keyframes move {
@@ -76,23 +67,8 @@ button:hover {
 }
 
 .roleta {
+  margin-top: -100px;
   background-image: url(/assets/img/3geo.gif);
   display: none;
 
 }
-/* 
-.roleta {
-    border: 16px solid #f3f3f3;
-    border-top: 16px solid #3498db;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
-    display: none;
-
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  } */
