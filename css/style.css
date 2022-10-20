@@ -41,6 +41,7 @@ button:hover {
   margin-top: 200px;
 }
 
+
 /* .dia {
   font-size: xx-large;
   color: #fff;
@@ -75,6 +76,12 @@ button:hover {
 }
 
 .roleta {
+  background-image: url(/assets/img/3geo.gif);
+  display: none;
+
+}
+/* 
+.roleta {
     border: 16px solid #f3f3f3;
     border-top: 16px solid #3498db;
     border-radius: 50%;
@@ -88,4 +95,4 @@ button:hover {
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-  }
+  } */
